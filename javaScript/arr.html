@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+    </div>
+</body>
+
+</html>
+<script>
+    var arr = [19, 32, 33]
+    var i = arr.indexOf(19); //数组的索引
+    console.log(i);
+    var list = [1, 23, 3, 1, 24, 45, 55];
+    var x = list.slice(0, 3); //索引从0开始
+    var y = list.slice(3); //从索引第三个开始
+    var Copy = list.slice(); //复制全部数据
+    console.log(Copy);
+    console.log(x);
+    console.log(y);
+    //push和pop 
+    //push
+    var arr1 = [1, 2];
+    var x = arr1.push('A', 'B');
+    var y = arr1;
+    console.log(y); //1,2,'A','B'
+    console.log(x); //长度为4
+    //pop
+    var z = arr1.pop();//取最后一位
+    console.log(z)
+    var a=arr1;
+    console.log(a)
+
+    //unshift和shift
+    var arr2=[1,2];
+    arr2.unshift('s','b');//长度为4
+    var x=arr2;
+    console.log(x);
+    arr2.shift();
+    var y=arr2;
+    console.log(y);//去掉第一个
+</script>
